@@ -1,0 +1,5 @@
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Business\bin\Release\Business.dll
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Business\bin\Release\Business.pdb
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Business\obj\Release\Business.csproj.CoreCompileInputs.cache
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Business\obj\Release\Business.dll
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Business\obj\Release\Business.pdb

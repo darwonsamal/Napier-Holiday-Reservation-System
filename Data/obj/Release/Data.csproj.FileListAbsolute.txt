@@ -1,0 +1,11 @@
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Data\bin\Release\dataBase.mdf
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Data\bin\Release\dataBase_log.ldf
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Data\bin\Release\Data.dll.config
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Data\bin\Release\Data.dll
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Data\bin\Release\Data.pdb
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Data\bin\Release\Business.dll
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Data\bin\Release\Business.pdb
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Data\obj\Release\Data.csprojResolveAssemblyReference.cache
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Data\obj\Release\Data.csproj.CoreCompileInputs.cache
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Data\obj\Release\Data.dll
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Data\obj\Release\Data.pdb

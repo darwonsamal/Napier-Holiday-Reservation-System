@@ -1,0 +1,12 @@
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Business\bin\Debug\Business.pdb
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Business\obj\Debug\Business.pdb
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Business\bin\Debug\Business.dll
+C:\Users\Darwon\Desktop\CW2\NapierHoliday\Business\obj\Debug\Business.dll
+D:\CW2\NapierHoliday\Business\bin\Debug\Business.dll
+D:\CW2\NapierHoliday\Business\bin\Debug\Business.pdb
+D:\CW2\NapierHoliday\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\CW2\NapierHoliday\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+D:\CW2\NapierHoliday\Business\obj\Debug\Business.dll
+D:\CW2\NapierHoliday\Business\obj\Debug\Business.pdb
