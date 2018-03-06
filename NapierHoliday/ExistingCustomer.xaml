@@ -1,0 +1,47 @@
+﻿<Window x:Class="NapierHoliday.ExistingCustomer"
+         WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NapierHoliday"
+          Icon="napier.png"
+        mc:Ignorable="d"
+        Title="ExistingCustomer" Height="425" Width="615">
+    <Grid>
+        <Label x:Name="lblExistingCustomer" Content="Existing Customer" HorizontalAlignment="Center" Margin="213,10,226.4,0" VerticalAlignment="Top" FontSize="20" Width="171"/>
+        <DataGrid x:Name="dataGridCustomer" HorizontalAlignment="Left" Height="180" Margin="0,84,0,0" VerticalAlignment="Top" Width="321" SelectionChanged="dataGridCustomer_SelectionChanged"
+                  AutoGenerateColumns="False" IsReadOnly="True">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Customer Reference" Binding="{Binding Path = CustomerReferenceNumber}"/>
+                <DataGridTextColumn Header="Customer Name" Binding="{Binding Path = Name}"/>
+                <DataGridTextColumn Header="Customer Address" Binding="{Binding Path = Address}"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <Label Content="Select Customer To Alter:" HorizontalAlignment="Left" Margin="0,58,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnModifyCustomer" Content="Modify Customer" HorizontalAlignment="Left" Margin="10,285,0,0" VerticalAlignment="Top" Width="112" Click="btnModifyCustomer_Click"/>
+
+        <DataGrid x:Name="dataGridBooking" HorizontalAlignment="Left" Height="180" Margin="326,84,0,0" VerticalAlignment="Top" Width="275"
+                  AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="dataGridBooking_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Booking Reference" Binding="{Binding Path = BookingReferenceNumber}"/>
+                <DataGridTextColumn Header="Arrival Date" Binding="{Binding Path = ArrivalDate, StringFormat= 'MM/dd/yyyy'}"/>
+                <DataGridTextColumn Header="Departure Date" Binding="{Binding Path = DepartureDate, StringFormat= 'MM/dd/yyyy'}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Select Booking To Alter:" HorizontalAlignment="Left" Margin="326,58,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.242,0.454"/>
+        <Button x:Name="btnModifyBooking" Content="Modify Booking Dates" HorizontalAlignment="Left" Margin="127,285,0,0" VerticalAlignment="Top" Width="132" Click="btnModifyBooking_Click"/>
+        <Button x:Name="btnModifyBookingExtrasAndGuests"  Content="Modify Booking Extras and Guests" HorizontalAlignment="Left" Margin="10,310,0,0" VerticalAlignment="Top" Width="249" Click="btnModifyBookingExtrasAndGuests_Click"/>
+        <Button x:Name="btnDeleteBooking" Content="Delete Booking" HorizontalAlignment="Left" Margin="326,285,0,0" VerticalAlignment="Top" Width="125" Click="btnDeleteBooking_Click"/>
+        <Button x:Name="btnDeleteCustomer" Content="Delete Customer" HorizontalAlignment="Left" Margin="326,315,0,0" VerticalAlignment="Top" Width="125" Click="btnDeleteCustomer_Click" />
+        <Button x:Name="btnAddBooking" Content="Add Booking" HorizontalAlignment="Left" Margin="456,285,0,0" VerticalAlignment="Top" Width="125" Click="btnAddBooking_Click"/>
+        <Button x:Name="btnBack"  Content="Back" HorizontalAlignment="Left" Margin="10,345,0,0" VerticalAlignment="Top" Width="75" Click="btnBack_Click"/>
+        <Button x:Name="btnInvoice"  Content="View Invoice" HorizontalAlignment="Left" Margin="456,315,0,0" VerticalAlignment="Top" Width="125" RenderTransformOrigin="0.676,0.467" Click="btnInvoice_Click"/>
+        <TextBox x:Name="txtBoxCustomer"   HorizontalAlignment="Left" Height="23" Margin="201,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="txtBoxCustomer_TextChanged"/>
+
+
+
+    </Grid>
+</Window>

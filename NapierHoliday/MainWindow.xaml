@@ -1,0 +1,25 @@
+﻿<Window x:Class="NapierHoliday.MainWindow"
+         WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NapierHoliday"
+        Icon="napier.png"
+        mc:Ignorable="d"
+        Title="Napier Holiday" Height="300" Width="250">
+
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="FontFamily" Value="Calibri"/>
+        </Style>
+
+    </Window.Resources>
+    <Grid>
+        <Image Margin="18,194,27.2,20.8" Source="napierLogo.jpg" Stretch="None"/>
+        <Label x:Name="lblNapierHoliday" Content="Napier Holiday Booking" HorizontalAlignment="Left" Margin="18,10,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="btnExistingCustomer" Content="Existing Customer" HorizontalAlignment="Left" Margin="18,66,0,0" VerticalAlignment="Top" Width="200" Height="36" Click="btnExistingCustomer_Click"/>
+        <Button x:Name="btnNewCustomer" Content="New Customer" HorizontalAlignment="Left" Margin="18,133,0,0" VerticalAlignment="Top" Width="200" Height="36" Click="btnNewCustomer_Click"/>
+    </Grid>
+</Window>
